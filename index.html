@@ -1,397 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Personal Portfolio Template</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+
 </head>
-
 <body>
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" data-aos="fade-up">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Mj</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">My Work</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact" class="get-in-touch">Get in Touch</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
-    <section id="about" class="container">
-        <div id="background-slideshow">
-            <ul class="cb-slideshow">
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
-            </ul>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h1 data-aos="fade-left">My name is Chris Kim and I'm a front-end developer</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="social-media">
-                    <span class="fa fa-facebook"></span>
-                    <span class="fa fa-twitter"></span>
-                    <span class="fa fa-instagram"></span>
-                    <span class="fa fa-dribbble"></span>
-                </div>
-                <button class="btn btn-default"> Hire Me </button>
-            </div>
-        </div>
-    </section>
-    
-    <section id="services" class="container">
-        <h2>Services I offer - <span>World class services</span></h2>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 box-light" data-aos="fade-right">
-                <span class="fa fa-pencil"></span>
-                <h3>UX/UI Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="col-md-6 col-sm-6 box-dark" data-aos="fade-right">
-                <span class="fa fa-gears"></span>
-                <h3>SEO</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 box-dark" data-aos="fade-right">
-                <span class="fa fa-code"></span>
-                <h3>Front-end Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="col-md-6 col-sm-6 box-light" data-aos="fade-right">
-                <span class="fa fa-wordpress"></span>
-                <h3>Wordpress themes</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="portfolio" class="container">
-        <h2>My Recent work - <span>Quality above quantity</span></h2>
-        <div class="row portfolio-gallery-thumbnail" data-aos="fade-up">
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-one">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-two">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-three">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-four">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-five">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-six">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-seven">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-eight">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="thumbnail-box" data-toggle="modal" data-target=".model-nine">
-                    <img src="images/thumb-sample.jpg" alt="Project title">
-                    <h4>Project Title</h4>
-                    <span>Small project description</span>
-                    <a href="javascript:void(0);" class="fa fa-search"></a>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-gallery">
-            <div class="modal fade model-one" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-two" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-three" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-four" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-five" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-six" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-seven" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-eight" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade model-nine" tabindex="1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img src="images/big-sample.jpg" alt="Project title">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Area Design Ends -->
-    <!-- Blog Area Design Start -->
-    <section id="blog" class="container">
-        <h2>My Blog - <span>Knowledge is power</span></h2>
-        <div class="row">
-            <div class="col-md-4 clearfix" data-aos="fade-right">
-                <div class="row">
-                    <div class="blog-box clearfix" data-aos="fade-up">
-                        <div class="col-md-12 col-sm-4"><img src="images/blog-verticle.jpg" alt="Blog"></div>
-                        <div class="col-md-12 col-sm-8">
-                            <h5 class="pull-left">Blog Title</h5>
-                            <span class="pull-right">Date: 2nd Nov 216</span>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                            <a href="javascript:void(0);">Read More..</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="row">
-                    <div class="blog-box clearfix" data-aos="fade-up">
-                        <div class="col-md-4 col-sm-4"><img src="images/blog-horizontal-1.jpg" alt="Blog"></div>
-                        <div class="col-md-8 col-sm-8">
-                            <h5 class="pull-left">Blog Title</h5>
-                            <span class="pull-right">Date: 2nd Nov 216</span>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                            <a href="javascript:void(0);">Read More..</a></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="blog-box clearfix" data-aos="fade-up">
-                        <div class="col-md-4 col-sm-4"><img src="images/blog-horizontal-2.jpg" alt="Blog"></div>
-                        <div class="col-md-8 col-sm-8">
-                            <h5 class="pull-left">Blog Title</h5>
-                            <span class="pull-right">Date: 2nd Nov 216</span>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                            <a href="javascript:void(0);">Read More..</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" data-aos="fade-up" class="container">
-        <h2>Get in touch - <span>I am available for freelance work</span></h2>
-        <div class="container">
-            <div id="form-messages"></div>
-            <form id="contact-form" method="post" action="mailer.php">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <textarea class="form-control" rows="3" name="message" id="message" placeholder="Message" required></textarea>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <button class="btn btn-default" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <div class="copyright">© 2016 MJ | All RightReserved.</div>
-                </div>
-                <div class="col-md-6 text-center">
-                    <div class="social-media">
-                        <span class="fa fa-facebook"></span>
-                        <span class="fa fa-twitter"></span>
-                        <span class="fa fa-instagram"></span>
-                        <span class="fa fa-dribbble"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/contact-form.js"></script>
-</body>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
 
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+  <h1>My name is Chris Kim</h1>
+  <p>and I'm a front-end developer</p>
+</section>
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="projects-grid">
+    <a
+      href="https://twitter.com"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="Tetris.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Synthwave Tetris
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="pong.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Pong
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="flappy-bron.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Flappy Lebron
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    
+  </div>
+
+  <a
+    class="btn btn-show-all"
+    target="_blank"
+    >Show all<i class="fas fa-chevron-right"></i
+  ></a>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    <p>and make some money</p>
+  </div>
+  <div class="contact-links">
+    <a
+      href="https://facebook.com"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+    >
+    <a
+      id="profile-link"
+      href="https://github.com"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:ckjr92@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:801-885-0215" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+</body>
 </html>
+
