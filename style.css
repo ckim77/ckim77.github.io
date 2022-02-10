@@ -349,3 +349,25 @@
     color: var(--main-gray);
     font-size: 25px;
   }
+
+  .typewriter {
+    overflow: hidden; 
+    border-right: .15em solid var(--main-red); 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .10em; 
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--main-red); }
+  }
