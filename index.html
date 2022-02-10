@@ -37,69 +37,116 @@
 </nav>
 
 <section id="welcome-section" class="welcome-section">
+  <div class="about-text">
+    <div>
+      <h2>Hello World!</h2>
+    </div>
+  <h2>I'm <span>Chris</span>,</h2>
+  <h2>Software Developer.</h2>
+  <h2 class="skills-text">Javascript | React | Express | NodeJS | APIs</h2>
+
   
-  <h2>I'm <span>Chris Kim</span>, a front-end developer devoted to creating web </h2>
-  <h2>applications that are <span>beautiful, purposeful, efficient.</span></h2>
+  </div>
+
+  <div class='profile-picture'>
+    <img src="Profile.jpeg"/>
+  </div>
+
 </section>
 
 <section id="projects" class="projects-section">
   <h2 class="projects-section-header">Projects</h2>
 
   <div class="projects-grid">
-    <a
-      href="https://github.com/ckim77/tetris"
-      target="_blank"
-      class="project project-tile"
-    >
+    <div>
       <img
         class="project-image"
-        src="Tetris.png"
+        src="tetris.png"
         alt="project"
       />
       <p class="project-title">
         <span class="code"></span>
+        <p class="description">Javascript | Express | NodeJS</p>
         <p class = "project-text">Synthwave Tetris</p>
-        <button class="project-button">Demo</button><button class="project-button">Code</button>
+        <div>
+          <a href="https://vimeo.com/manage/videos/675708029" target="_blank"><button class="project-button">Video</button></a>
+          <a href="https://github.com/ckim77/tetris" target="_blank"><button class="project-button">Code</button></a>
+        </div>
         <span class="code"></span>
       </p>
-    </a>
-    <a
-      href="https://github.com/ckim77/pong-python"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="pong.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code"></span>
-        <p class = "project-text">Pong</p>
-        <button class="project-button">Demo</button><button class="project-button">Code</button>
-
-        <span class="code"></span>
-      </p>
-    </a>
-    <a
-      href="https://github.com/ckim77/user-auth-react"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="flappy-bron.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code"></span>
-        <p class = "project-text">Daily App</p>
-        <button class='project-button'>Demo</button><button class='project-button'>Code</button>
-
-        <span class="code"></span>
-      </p>
-    </a>
+    </div>
     
+    <div>
+      <img
+        class="project-image"
+        src="weather.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code"></span>
+        <p class="description">React | APIs</p>
+        <p class = "project-text">Weather App</p>
+        <div>
+          <a href="https://vimeo.com/manage/videos/675705983" target="_blank"><button class="project-button">Video</button></a>
+          <a href="https://github.com/ckim77/weather-app-react" target="_blank"><button class="project-button">Code</button></a>
+        </div>
+        <span class="code"></span>
+      </p>
+    </div>
+    <div>
+      <img
+        class="project-image"
+        src="expense.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code"></span>
+        <p class="description">React | React Hooks</p>
+        <p class = "project-text">Expense Tracker</p>
+        <div>
+          <a href="https://vimeo.com/manage/videos/675707816" target="_blank"><button class="project-button">Video</button></a>
+          <a href="https://github.com/ckim77/expense-tracker-react" target="_blank"><button class="project-button">Code</button></a>
+        </div>
+        <span class="code"></span>
+      </p>
+    </div>
+
+    <!-- <div>
+      <img
+        class="project-image"
+        src="expense.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code"></span>
+        <p class="description">React | React Hooks</p>
+        <p class = "project-text">Expense Tracker</p>
+        <div>
+          <a href="https://vimeo.com/manage/videos/675707816" target="_blank"><button class="project-button">Video</button></a>
+          <a href="https://github.com/ckim77/expense-tracker-react" target="_blank"><button class="project-button">Code</button></a>
+        </div>
+        <span class="code"></span>
+      </p>
+    </div>
+    
+    <div>
+      <img
+        class="project-image"
+        src="expense.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code"></span>
+        <p class="description">React | React Hooks</p>
+        <p class = "project-text">Expense Tracker</p>
+        <div>
+          <a href="https://vimeo.com/manage/videos/675707816" target="_blank"><button class="project-button">Video</button></a>
+          <a href="https://github.com/ckim77/expense-tracker-react" target="_blank"><button class="project-button">Code</button></a>
+        </div>
+        <span class="code"></span>
+      </p>
+    </div> -->
+
   </div>
 
   
@@ -107,25 +154,25 @@
 
 <section id="contact" class="contact-section">
   <div class="contact-section-header">
-    <h2>Let's work together...</h2>
+    <h2>Let's work together!</h2>
     <p>Contact me at</p>
   </div>
   <div class="contact-links">
     <a
-      href="https://facebook.com"
+      href="https://www.linkedin.com/in/chris-kim-8885741b8/"
       target="_blank"
       class="btn contact-details"
-      ><i class="fab fa-facebook-square"></i> Facebook</a
+      ><i class="fab fa-linkedin"></i> Linkedin</a
     >
     <a
       id="profile-link"
-      href="https://github.com"
+      href="https://github.com/ckim77"
       target="_blank"
       class="btn contact-details"
       ><i class="fab fa-github"></i> GitHub</a
     >
     <a
-      href="https://twitter.com"
+      href="https://twitter.com/ChrisKi92803879 "
       target="_blank"
       class="btn contact-details"
       ><i class="fab fa-twitter"></i> Twitter</a
